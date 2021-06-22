@@ -1,0 +1,276 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+#hero {
+    background-image: url("../images/nike.jpg");
+    height: 72vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.user {
+    position: absolute;
+    right: 5rem;
+    top: 2rem;
+}
+
+.shopping-cart {
+    position: absolute;
+    right: 9rem;
+    top: 2rem;
+}
+
+#nav-bar {
+    height: 13vh;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.w-70 {
+    width: 80% !important;
+}
+
+.margin-r {
+    margin-right: 1.5rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.align-right {
+    float: right;
+}
+
+.logo {
+    background-image: url("../images/logo2.png");
+    height: 70px;
+    background-size: cover;
+    width: 70px;
+}
+
+
+/* kategorijos */
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text-color {
+    color: rgb(121, 88, 88);
+}
+
+.margin-bot {
+    margin-bottom: 80px;
+}
+
+.bg-image-1 {
+    background-image: url("../images/6.jpg");
+    height: 300px;
+    background-size: cover;
+    width: 300px;
+}
+
+.bg-image-2 {
+    background-image: url("../images/7.jpg");
+    height: 300px;
+    background-size: cover;
+    width: 300px;
+}
+
+.bg-image-3 {
+    background-image: url("../images/2.jpg");
+    height: 300px;
+    background-size: cover;
+    width: 300px;
+}
+
+.shoe-container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* kortelės */
+
+.shoe-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-body {
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+.shoe-card {
+    height: 450px;
+    width: 250px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.shoe-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.shoe-description {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+
+/* blogas */
+
+.b-shoe-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.b-card-body {
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+.b-shoe-card {
+    height: 650px;
+    width: 400px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.b-shoe-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.b-shoe-description {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.b-shoe-title {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+/* single sale item */
+
+.b-shoe-img-2 {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.b-shoe-card-2 {
+    height: 650px;
+    width: 500px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.right-corner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 1rem;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+
+/* footerio */
+
+footer {
+    background: #1e272e;
+    color: #eee;
+    text-align: center;
+    height: auto;
+}
+
+.line {
+    width: 70%;
+    margin: 0 auto;
+    border-top: white solid 1px;
+}
+
+.d-block {
+    display: block;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* filtras */
